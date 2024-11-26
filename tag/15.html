@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="../assets/img/favicon-32x32.png" sizes="32x32"/>
+    <link rel="icon" type="image/png" href="../assets/img/favicon-16x16.png" sizes="16x16"/>
+    <link rel="stylesheet" href="../style/styles.css">
+    <script>
+        const tag = 15;
+        document.title = 'Adventskalender - ' + tag + ' | OE-4144';
+        const date = new Date();
+        if (!(date.getDate() >= tag && date.getMonth() === 11)) {
+            window.location = 'zu_frueh.html';
+        }
+    </script>
+    <title></title>
+</head>
+<body>
+<div class="calendar-day">
+    <div class="title">
+        <h1><span class="title-1">OE-4144</span><span class="title-2">Advents-</span><span
+                class="title-3">kalender</span></h1>
+    </div>
+    <div class="art">
+        <div class="north-pole">
+            <div class="ground"></div>
+            <div class="pole"></div>
+            <div class="sign">North Pole
+                <div class="icicle icicle-1"></div>
+                <div class="icicle icicle-2"></div>
+                <div class="icicle icicle-3"></div>
+                <div class="icicle icicle-4"></div>
+                <div class="icicle icicle-5"></div>
+                <div class="ice-left"></div>
+                <div class="ice-right"></div>
+                <div class="snow"></div>
+            </div>
+            <div class="top"></div>
+        </div>
+    </div>
+    <div class="video">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/C8OUthMkts4" title="YouTube video player"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+    </div>
+    <div class="riddle">
+        <img src="../assets/img/T1.png" alt="Rätsel" width="400wv"/>
+    </div>
+</div>
+</body>
+</html>

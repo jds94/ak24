@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="../assets/img/favicon-32x32.png" sizes="32x32"/>
+    <link rel="icon" type="image/png" href="../assets/img/favicon-16x16.png" sizes="16x16"/>
+    <link rel="stylesheet" href="../style/styles.css">
+    <script>
+        const tag = 13;
+        document.title = 'Adventskalender - ' + tag + ' | OE-4144';
+        const date = new Date();
+        if (!(date.getDate() >= tag && date.getMonth() === 11)) {
+            window.location = 'zu_frueh.html';
+        }
+    </script>
+    <title></title>
+</head>
+<body>
+<div class="calendar-day">
+    <div class="title">
+        <h1><span class="title-1">OE-4144</span><span class="title-2">Advents-</span><span
+                class="title-3">kalender</span></h1>
+    </div>
+    <div class="art">
+        <div class="elf-hat-container">
+            <div class="elf-hat">
+                <div class="elf-hat__main"></div>
+                <div class="elf-hat__main-shadow"></div>
+                <div class="elf-hat__gold elf-hat__gold--main"></div>
+                <div class="elf-hat__side">
+                    <div class="elf-hat__side__left"></div>
+                    <div class="elf-hat__side__right"></div>
+                    <div class="elf-hat__side__spikes"></div>
+                </div>
+                <div class="elf-hat__gold elf-hat__gold--left"></div>
+                <div class="elf-hat__gold elf-hat__gold--left-center"></div>
+                <div class="elf-hat__gold elf-hat__gold--right-center"></div>
+                <div class="elf-hat__gold elf-hat__gold--right"></div>
+            </div>
+        </div>
+    </div>
+    <div class="video">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/aAkMkVFwAoo" title="YouTube video player"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+    </div>
+    <div class="riddle">
+        <img src="../assets/img/T1.png" alt="Rätsel" width="400wv"/>
+    </div>
+</div>
+</body>
+</html>

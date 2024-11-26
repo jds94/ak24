@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="../assets/img/favicon-32x32.png" sizes="32x32"/>
+    <link rel="icon" type="image/png" href="../assets/img/favicon-16x16.png" sizes="16x16"/>
+    <link rel="stylesheet" href="../style/styles.css">
+    <script>
+        const tag = 10;
+        document.title = 'Adventskalender - ' + tag + ' | OE-4144';
+        const date = new Date();
+        if (!(date.getDate() >= tag && date.getMonth() === 11)) {
+            window.location = 'zu_frueh.html';
+        }
+    </script>
+    <title></title>
+</head>
+<body>
+<div class="calendar-day">
+    <div class="title">
+        <h1><span class="title-1">OE-4144</span><span class="title-2">Advents-</span><span
+                class="title-3">kalender</span></h1>
+    </div>
+    <div class="art">
+        <div class="snowman">
+            <div class="snowman__leg">O</div>
+            <div class="snowman__stomach">O</div>
+            <div class="snowman__head">O</div>
+            <div class="snowman__button snowman__button-1">G</div>
+            <div class="snowman__button snowman__button-2">@</div>
+            <div class="snowman__button snowman__button-3">6</div>
+            <div class="snowman__button snowman__button-4">D</div>
+            <div class="snowman__nose">V</div>
+            <div class="snowman__left-eye">*</div>
+            <div class="snowman__right-eye">#</div>
+            <div class="snowman__left-arm">Y</div>
+            <div class="snowman__right-arm">F</div>
+            <div class="snowman__hat">
+                <div class="snowman__hat--base">M</div>
+                <div class="snowman__hat--left">L</div>
+                <div class="snowman__hat--right">J</div>
+            </div>
+        </div>
+    </div>
+    <div class="video">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/uSjq7x67kzM" title="YouTube video player"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+    </div>
+    <div class="riddle">
+        <img src="../assets/img/T1.png" alt="Rätsel" width="400wv"/>
+    </div>
+</div>
+</body>
+</html>

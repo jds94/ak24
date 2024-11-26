@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="../assets/img/favicon-32x32.png" sizes="32x32"/>
+    <link rel="icon" type="image/png" href="../assets/img/favicon-16x16.png" sizes="16x16"/>
+    <link rel="stylesheet" href="../style/styles.css">
+    <script>
+        const tag = 23;
+        document.title = 'Adventskalender - ' + tag + ' | OE-4144';
+        const date = new Date();
+        if (!(date.getDate() >= tag && date.getMonth() === 11)) {
+            window.location = 'zu_frueh.html';
+        }
+    </script>
+    <title></title>
+</head>
+<body>
+<div class="calendar-day">
+    <div class="title">
+        <h1><span class="title-1">OE-4144</span><span class="title-2">Advents-</span><span
+                class="title-3">kalender</span></h1>
+    </div>
+    <div class="art">
+        <div class="reindeer">
+            <div class="antler">
+                <div class="hook"></div>
+                <div class="hook"></div>
+                <div class="hook"></div>
+            </div>
+            <div class="antler antler--right">
+                <div class="hook"></div>
+                <div class="hook"></div>
+                <div class="hook"></div>
+            </div>
+            <div class="body">
+                <div class="hand"></div>
+                <div class="hand hand--right"></div>
+                <div class="legs"></div>
+                <div class="foot"></div>
+                <div class="foot foot--right"></div>
+            </div>
+            <div class="head">
+                <div class="ear"></div>
+                <div class="ear ear--right"></div>
+                <div class="face"></div>
+                <div class="eye"></div>
+                <div class="eye eye--right"></div>
+                <div class="nose"></div>
+            </div>
+        </div>
+    </div>
+    <div class="video">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/7F7A2NRkwzg" title="YouTube video player"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+    </div>
+    <div class="riddle">
+        <img src="../assets/img/T1.png" alt="Rätsel" width="400wv"/>
+    </div>
+</div>
+</body>
+</html>
